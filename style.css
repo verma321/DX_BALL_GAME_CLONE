@@ -1,0 +1,58 @@
+.grid div{
+    background-color: rgba(239, 239, 31, 0.99);;
+    width: 10%;
+    height: 25px;
+    margin: 8px;
+    border: 3px solid firebrick;
+    box-shadow: 3px 3px 3px 3px lightseagreen
+}
+.grid{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+body{
+    min-height: 100vh;
+    background-color: #312810;;
+}
+#ball{
+    width: 25px;
+    height: 25px;
+    background-color: red;
+    border-radius: 40px;
+    position: fixed;
+    left: 50%; /*doubt*/
+    top: 80%;
+}
+#result{
+    height: 50%;
+    width: 70%;
+    background-color: rgb(247, 200, 185);
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 40px;
+    text-align: center;
+    color: rgb(24, 38, 237);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: none;
+    margin: 4% auto;
+}
+#btn{
+    border-radius: 15px;
+    color: rgb(252, 130, 0);
+    background-color:lightgoldenrodyellow;
+    font-size: 50px;
+    cursor: pointer;
+}
+#paddle{
+    width: 100px;
+    height: 20px;
+    background-color: rgb(227, 143, 8);
+    position: fixed;
+    border-radius: 10px;
+}
+.box{
+    position: fixed;
+    top: 90%;
+    left: 47%;
+}
